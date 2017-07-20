@@ -1,0 +1,87 @@
+body {
+    
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#header {
+    font-size: 58px;
+    height: 110px;
+    position: relative;
+    top: 20px;
+}
+
+#scroll {
+    opacity: 0.7;
+    width: 100%;
+    height: 450px
+    
+}
+
+#sortingHat {
+    position: absolute;
+    right: 180px;
+    bottom: 30px;
+    width: 100px;
+    opacity: 0.9;
+}
+
+#mainPanel {
+    position: absolute;
+    background: none; 
+    border: none;
+    width: 100%;
+    height: 500px;
+}
+
+#wordPanel {
+    background: none;
+    border: none;
+    position: relative;
+    top: 150px;
+    font-size: 55px;
+}
+
+#lettersPanel {
+    width: 80%;
+    background: none;
+    border: none;
+    position: relative;
+    top: 150px;
+    left: 180px;
+    font-size: 40px;
+}
+
+#attemptsPanel {
+    position: relative;
+    top: 180px;
+    font-size: 30px;
+    background: none;
+    border: none;
+}
+
+
+#lettersTried {
+    margin-bottom: 30px;
+}
+
+#scorePanel {
+
+    color: #8b0000;
+    position: fixed;
+    top: 580px;
+    text-align: center;
+    font-size: 70px;
+    border: none;
+    height: 120px;
+    width: ;
+}
+
+#victories {
+    display: inline;
+    margin-right: 150px;
+    margin-left: 190px;
+}
