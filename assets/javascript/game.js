@@ -2,17 +2,19 @@
 
 var attempts = 10;              // attempts left in game
 var victories = 0;              // rounds won
-var defeats = 0;                    // rounds lost
-var word = "";                      // randomly generated word
+var defeats = 0;                // rounds lost
+var word = "";                  // randomly generated word
 var hiddenWord = [];            // blank spaces replacing word
 var lettersList = [];           // list of all different letters in a word
 var guessList = [];             // list of incorrect guesses
-var correctGuesses = [];    // list of correct guesses
-var oneGuessAway = false;   // condition checked to win
+var correctGuesses = [];        // list of correct guesses
+var oneGuessAway = false;       // condition checked to win
 
-var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";    // to differentiate letters from non-letters
+// to differentiate letters from non-letters
+var alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-var wordsList = [                   // list of words to randomly generate
+// list of words to randomly generate
+var wordsList = [
     "riddikulus",
     "obliviate",
     "sectumsempra",
@@ -37,7 +39,7 @@ var resetWord = function() {
     lettersList = [];
     
     word = wordsList[Math.floor(Math.random() * wordsList.length)];
-    word = word.toUpperCase(); //can i just add this to end of previous statement?
+    word = word.toUpperCase(); 
     
     listLetters();
 
